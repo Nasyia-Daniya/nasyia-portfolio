@@ -850,36 +850,35 @@ nav a:hover::after {
 }
 
 
-/* ================= SKILLS COLOR FIX ================= */
+/* ================= SKILLS ================= */
 
-/* SOFT SKILLS = PINK */
-.skills-grid .skills-card:first-child {
-    background: var(--pink-light) !important;
+/* CARD BESAR SOFT SKILLS */
+.skills-grid .skills-card:not(.tools-card) {
+    background: #fffdf9 !important;
 }
 
-/* Soft skill pills = WHITE */
-.skills-grid .skills-card:first-child .skill-pills span {
-    background: #ffffff !important;
-    color: var(--text);
+/* KOTAK SOFT SKILLS = PINK */
+.skills-grid .skills-card:not(.tools-card) .skill-pills span {
+    background: #f5e4ea !important;
+    color: #29262b !important;
 }
 
 
-/* TOOLS = WHITE */
+/* CARD BESAR TOOLS */
 .skills-grid .tools-card {
-    background: var(--white) !important;
+    background: #f5e4ea !important;
 }
 
-/* Tool boxes = PINK */
+/* KOTAK TOOLS = PUTIH */
 .skills-grid .tools-card .tool {
-    background: var(--pink-light) !important;
-}
-
-/* Icon kotak = WHITE */
-.skills-grid .tools-card .tool b {
     background: #ffffff !important;
-    color: var(--pink);
 }
 
+/* ICON TOOLS = PINK */
+.skills-grid .tools-card .tool b {
+    background: #f5e4ea !important;
+    color: #b45b79 !important;
+}
 
 /* ================= CONTACT ================= */
 
