@@ -362,6 +362,78 @@ const CERTIFICATES = [
 
 ];
 
+const certificateGrid = document.getElementById("certificateGrid");
+
+function renderCertificates() {
+    if (!certificateGrid) return;
+
+    certificateGrid.innerHTML = CERTIFICATES.map((certificate, index) => `
+        <article class="certificate-card" data-index="${index}">
+            <div class="certificate-image-wrapper">
+                <img
+                    src="${certificate.image}"
+                    alt="${certificate.title}"
+                    class="certificate-image"
+                >
+                <div class="certificate-overlay">
+                    <span>View Certificate ↗</span>
+                </div>
+            </div>
+
+            <div class="certificate-info">
+                <h3>${certificate.title}</h3>
+                <p>${certificate.date}</p>
+            </div>
+        </article>
+    `).join("");
+
+    document.querySelectorAll(".certificate-card").forEach(card => {
+        card.addEventListener("click", () => {
+            const index = card.dataset.index;
+            openCertificate(index);
+        });
+    });
+}
+
+function openCertificate(index) {
+    const certificate = CERTIFICATES[index];
+
+    const modal = document.getElementById("certificateModal");
+    const modalImage = document.getElementById("certificateModalImage");
+
+    modalImage.src = certificate.image;
+    modalImage.alt = certificate.title;
+
+    modal.classList.add("active");
+    document.body.classList.add("modal-open");
+}
+
+function closeCertificate() {
+    const modal = document.getElementById("certificateModal");
+
+    modal.classList.remove("active");
+    document.body.classList.remove("modal-open");
+}
+
+document
+    .getElementById("certificateClose")
+    ?.addEventListener("click", closeCertificate);
+
+document
+    .getElementById("certificateModal")
+    ?.addEventListener("click", (event) => {
+        if (event.target.id === "certificateModal") {
+            closeCertificate();
+        }
+    });
+
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+        closeCertificate();
+    }
+});
+
+renderCertificates();
 
 /* ================= ELEMENTS ================= */
 
