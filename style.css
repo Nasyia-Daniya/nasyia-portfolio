@@ -850,92 +850,34 @@ nav a:hover::after {
 }
 
 
-/* ================= SKILLS ================= */
+/* ================= SKILLS COLOR FIX ================= */
 
-.skills-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
+/* SOFT SKILLS = PINK */
+.skills-grid .skills-card:first-child {
+    background: var(--pink-light) !important;
 }
 
-.skills-card {
-    min-height: 260px;
-    padding: 34px;
-
-    border: 1px solid var(--line);
-    border-radius: 25px;
-
-    background: var(--pink-light);
-}
-
-/* ================= SOFT SKILLS ================= */
-
-.skill-pills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 7px;
-    margin-top: 20px;
-}
-
-.skill-pills span {
-    padding: 8px 11px;
-
-    border-radius: 999px;
-
-    background: white;
+/* Soft skill pills = WHITE */
+.skills-grid .skills-card:first-child .skill-pills span {
+    background: #ffffff !important;
     color: var(--text);
-
-    font-size: 9px;
-    font-weight: 600;
 }
 
 
-/* ================= TOOLS ================= */
-
-.tools-card {
-    background: var(--white);
+/* TOOLS = WHITE */
+.skills-grid .tools-card {
+    background: var(--white) !important;
 }
 
-.tools-grid {
-    display: grid;
-
-    grid-template-columns: repeat(2, 1fr);
-
-    gap: 10px;
-
-    margin-top: 20px;
+/* Tool boxes = PINK */
+.skills-grid .tools-card .tool {
+    background: var(--pink-light) !important;
 }
 
-.tool {
-    display: flex;
-
-    align-items: center;
-
-    gap: 10px;
-
-    padding: 12px;
-
-    border-radius: 15px;
-
-    background: var(--pink-light);
-
-    font-size: 10px;
-}
-
-.tool b {
-    width: 30px;
-    height: 30px;
-
-    display: grid;
-    place-items: center;
-
-    border-radius: 9px;
-
-    background: white;
-
+/* Icon kotak = WHITE */
+.skills-grid .tools-card .tool b {
+    background: #ffffff !important;
     color: var(--pink);
-
-    font-size: 9px;
 }
 
 
