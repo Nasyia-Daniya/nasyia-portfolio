@@ -347,94 +347,157 @@ const PROJECTS = [
 /* ================= CERTIFICATES ================= */
 
 const CERTIFICATES = [
-
     {
         title: "CAIP - PENERAPAN AI UNTUK PROSES DATA",
         date: "12 October 2026",
-        image: ""
+        image: "sertif 1.jpg"
     },
-
     {
         title: "Event Online Free Class - Quality Assurance",
         date: "20 October 2026",
-        image: ""
+        image: "sertif 2.jpg"
+    },
+    {
+        title: "Self-Paced Azure AI Basic Fundamental",
+        date: "10 May 2025",
+        image: "sertif 3.jpeg"
+    },
+    {
+        title: "Fast Track Free Bootcamp in Business Development",
+        date: "18 September 2026",
+        image: "sertif 4.jpeg"
+    },
+    {
+        title: "Applied Database Systems using Oracle AI Database – English",
+        date: "1 July 2026",
+        image: "sertif 5.jpeg"
     }
-
 ];
 
-const certificateGrid = document.getElementById("certificateGrid");
+const certificateGrid =
+    document.getElementById("certificateGrid");
 
 function renderCertificates() {
     if (!certificateGrid) return;
 
-    certificateGrid.innerHTML = CERTIFICATES.map((certificate, index) => `
-        <article class="certificate-card" data-index="${index}">
-            <div class="certificate-image-wrapper">
-                <img
-                    src="${certificate.image}"
-                    alt="${certificate.title}"
-                    class="certificate-image"
-                >
-                <div class="certificate-overlay">
-                    <span>View Certificate ↗</span>
+    certificateGrid.innerHTML =
+        CERTIFICATES.map((certificate, index) => `
+            <article
+                class="certificate-card"
+                data-index="${index}"
+            >
+                <div class="certificate-image-wrapper">
+                    <img
+                        src="${certificate.image}"
+                        alt="${certificate.title}"
+                        class="certificate-image"
+                    >
+
+                    <div class="certificate-overlay">
+                        <span>View Certificate ↗</span>
+                    </div>
                 </div>
-            </div>
 
-            <div class="certificate-info">
-                <h3>${certificate.title}</h3>
-                <p>${certificate.date}</p>
-            </div>
-        </article>
-    `).join("");
+                <div class="certificate-info">
+                    <h3>${certificate.title}</h3>
+                    <p>${certificate.date}</p>
+                </div>
+            </article>
+        `)
+        .join("");
 
-    document.querySelectorAll(".certificate-card").forEach(card => {
-        card.addEventListener("click", () => {
-            const index = card.dataset.index;
-            openCertificate(index);
+    document
+        .querySelectorAll(".certificate-card")
+        .forEach(card => {
+
+            card.addEventListener("click", () => {
+                const index =
+                    Number(card.dataset.index);
+
+                openCertificate(index);
+            });
+
         });
-    });
 }
+
 
 function openCertificate(index) {
-    const certificate = CERTIFICATES[index];
 
-    const modal = document.getElementById("certificateModal");
-    const modalImage = document.getElementById("certificateModalImage");
+    const certificate =
+        CERTIFICATES[index];
 
-    modalImage.src = certificate.image;
-    modalImage.alt = certificate.title;
+    const modal =
+        document.getElementById("certificateModal");
+
+    const modalImage =
+        document.getElementById(
+            "certificateModalImage"
+        );
+
+    modalImage.src =
+        certificate.image;
+
+    modalImage.alt =
+        certificate.title;
 
     modal.classList.add("active");
-    document.body.classList.add("modal-open");
+
+    document.body.classList.add(
+        "modal-open"
+    );
 }
+
 
 function closeCertificate() {
-    const modal = document.getElementById("certificateModal");
+
+    const modal =
+        document.getElementById(
+            "certificateModal"
+        );
 
     modal.classList.remove("active");
-    document.body.classList.remove("modal-open");
+
+    document.body.classList.remove(
+        "modal-open"
+    );
 }
+
 
 document
     .getElementById("certificateClose")
-    ?.addEventListener("click", closeCertificate);
+    ?.addEventListener(
+        "click",
+        closeCertificate
+    );
+
 
 document
     .getElementById("certificateModal")
-    ?.addEventListener("click", (event) => {
-        if (event.target.id === "certificateModal") {
+    ?.addEventListener(
+        "click",
+        event => {
+
+            if (
+                event.target.id ===
+                "certificateModal"
+            ) {
+                closeCertificate();
+            }
+
+        }
+    );
+
+
+document.addEventListener(
+    "keydown",
+    event => {
+
+        if (event.key === "Escape") {
             closeCertificate();
         }
-    });
 
-document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
-        closeCertificate();
     }
-});
-
-renderCertificates();
-
+);
 /* ================= ELEMENTS ================= */
 
 const projectGrid =
