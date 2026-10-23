@@ -1190,6 +1190,39 @@ body.modal-open {
         grid-template-columns: 1fr;
     }
 }
+
+/* =========================
+   SKILLS COLOR FIX ONLY
+========================= */
+
+/* Soft Skills:
+   card = putih
+   skill box = pink
+*/
+.skills-card.soft-skills {
+    background: #ffffff;
+}
+
+.skills-card.soft-skills .skill-pill {
+    background: #f3dce2;
+    color: #282328;
+    border: 1px solid #efd0d8;
+}
+
+
+/* Tools:
+   card = pink
+   tool box = putih
+*/
+.skills-card.tools {
+    background: #f3dce2;
+}
+
+.skills-card.tools .tool-item {
+    background: #ffffff;
+    color: #282328;
+}
+
 /* ================= CONTACT ================= */
 
 .contact-card {
