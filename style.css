@@ -1060,34 +1060,129 @@ body.modal-open {
 }
 
 
-/* ================= SKILLS ================= */
+/* =========================
+   SKILLS & TOOLS
+========================= */
 
-/* CARD BESAR SOFT SKILLS */
-.skills-grid .skills-card:not(.tools-card) {
-    background: #fffdf9 !important;
+.skills-section {
+    padding-top: 100px;
 }
 
-/* KOTAK SOFT SKILLS = PINK */
-.skills-grid .skills-card:not(.tools-card) .skill-pills span {
-    background: #f5e4ea !important;
-    color: #29262b !important;
+.skills-section .section-heading {
+    margin-bottom: 45px;
 }
 
-
-/* CARD BESAR TOOLS */
-.skills-grid .tools-card {
-    background: #f5e4ea !important;
+.skills-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    margin-top: 40px;
 }
 
-/* KOTAK TOOLS = PUTIH */
-.skills-grid .tools-card .tool {
-    background: #ffffff !important;
+.skills-card {
+    border-radius: 25px;
+    padding: 32px;
+    min-height: 280px;
+    box-sizing: border-box;
 }
 
-/* ICON TOOLS = PINK */
-.skills-grid .tools-card .tool b {
-    background: #f5e4ea !important;
-    color: #b45b79 !important;
+.skills-card.soft-skills {
+    background: #ffffff;
+    border: 1px solid #eadfe1;
+}
+
+.skills-card.tools {
+    background: #f3dce2;
+    border: 1px solid #f0cdd5;
+}
+
+.skills-card-label {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #bd5878;
+    margin-bottom: 24px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 14px;
+
+    border-radius: 999px;
+
+    font-size: 13px;
+    line-height: 1.2;
+
+    background: #f3dce2;
+    color: #282328;
+
+    border: 1px solid #efd0d8;
+}
+
+.tools .skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.tool-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 13px 15px;
+
+    background: #ffffff;
+    border-radius: 14px;
+
+    color: #282328;
+    font-size: 14px;
+
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.tool-icon {
+    min-width: 28px;
+    height: 28px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+
+    background: #f3dce2;
+    color: #bd5878;
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+    .skills-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .skills-card {
+        padding: 24px;
+    }
+
+    .tools .skills-list {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* ================= CONTACT ================= */
