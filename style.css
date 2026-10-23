@@ -1116,15 +1116,11 @@ body.modal-open {
     display: inline-flex;
     align-items: center;
     padding: 9px 14px;
-
     border-radius: 999px;
-
     font-size: 13px;
     line-height: 1.2;
-
     background: #f3dce2;
     color: #282328;
-
     border: 1px solid #efd0d8;
 }
 
@@ -1138,33 +1134,41 @@ body.modal-open {
     display: flex;
     align-items: center;
     gap: 12px;
-
     padding: 13px 15px;
-
     background: #ffffff;
     border-radius: 14px;
-
     color: #282328;
     font-size: 14px;
-
     border: 1px solid rgba(255, 255, 255, 0.8);
 }
 
 .tool-icon {
     min-width: 28px;
     height: 28px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     border-radius: 8px;
-
     background: #f3dce2;
     color: #bd5878;
-
     font-size: 11px;
     font-weight: 700;
+}
+
+@media (max-width: 800px) {
+    .skills-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .skills-card {
+        padding: 24px;
+    }
+
+    .tools .skills-list {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* RESPONSIVE */
