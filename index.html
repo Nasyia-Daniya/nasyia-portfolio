@@ -1,315 +1,574 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Nasyia Daniya Rabbani | Portfolio</title>
+    <title>Nasyia Daniya Rabbani — Portfolio</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="header">
-  <a href="#home" class="logo">
-    Nasyia Daniya Rabbani
-    <span>INFORMATION SYSTEMS</span>
-  </a>
+<!-- ================= HEADER ================= -->
 
-  <button class="menu-btn" id="menuBtn">☰</button>
+<header class="site-header">
 
-  <nav id="nav">
-    <a href="#home">Home</a>
-    <a href="#education">Education</a>
-    <a href="#projects">Projects</a>
-    <a href="#certificates">Certificates</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <a href="#home" class="logo">
+        <strong>Nasyia Daniya Rabbani</strong>
+        <span>INFORMATION SYSTEMS</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">
+        ☰
+    </button>
+
+    <nav id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
 </header>
 
 
 <main>
 
-<!-- HERO -->
+<!-- ================= HERO ================= -->
+
 <section class="hero section" id="home">
 
-  <div class="hero-text">
-    <p class="small-title">HELLO, I'M NASYIA</p>
+    <div class="hero-content reveal">
 
-    <h1>
-      CREATIVE<br>
-      <span>PORTFOLIO</span>
-    </h1>
+        <p class="eyebrow">HELLO, I'M NASYIA</p>
 
-    <p class="intro">
-      I’m an Information Systems student at BINUS University with a growing
-      interest in Business Intelligence, Data Visualization, and UI/UX Design.
-      I enjoy turning business and insights into clear, engaging visual
-      experiences. I’m also interested in creating intuitive interfaces and
-      exploring how design can improve the way users interact with digital
-      products. Through various academic projects, I’ve developed experience
-      in data visualization, database design, and UI/UX design. I’m excited
-      to continue learning and applying both analytical and creative skills
-      to create meaningful digital solutions.
-    </p>
+        <h1>
+            CREATIVE<br>
+            <em>PORTFOLIO</em>
+        </h1>
 
-    <div class="interest-tags">
-      <span>Business Analysis</span>
-      <span>UI/UX Design</span>
-      <span>Data Visualization</span>
+        <p class="hero-description">
+            I’m an Information Systems student at BINUS University with a growing
+            interest in Business Intelligence, Data Visualization, and UI/UX Design.
+            I enjoy turning business and insights into clear, engaging visual experiences.
+            I’m also interested in creating intuitive interfaces and exploring how design
+            can improve the way users interact with digital products. Through various
+            academic projects, I’ve developed experience in data visualization,
+            database design, and UI/UX design. I’m excited to continue learning and
+            applying both analytical and creative skills to create meaningful digital solutions.
+        </p>
+
+        <div class="hero-tags">
+            <span>Business Analysis</span>
+            <span>UI/UX Design</span>
+            <span>Data Visualization</span>
+        </div>
+
     </div>
-  </div>
 
-  <div class="hero-image">
-    <div class="image-frame">
-      <img
-        src="assets/WhatsApp Image 2026-10-23 at 12.09.54.jpeg"
-        alt="Nasyia Daniya Rabbani"
-      >
+
+    <div class="profile-box reveal">
+
+        <!--
+            FOTO PROFILE BELUM DIMASUKKAN.
+            Nanti edit PROFILE_PHOTO di script.js.
+        -->
+
+        <div id="profilePlaceholder">
+            <span>PROFILE PHOTO</span>
+            <small>Add your image in script.js</small>
+        </div>
+
+        <img
+            id="profileImage"
+            src=""
+            alt="Nasyia Daniya Rabbani"
+        >
+
     </div>
-  </div>
 
 </section>
 
 
-<!-- EDUCATION -->
-<section class="section education" id="education">
+<!-- ================= AREAS OF INTEREST ================= -->
 
-  <div class="section-number">01</div>
+<section class="section" id="interests">
 
-  <div class="section-title">
-    <p>EDUCATION</p>
-    <h2>My academic<br><i>journey.</i></h2>
-  </div>
+    <div class="section-heading reveal">
 
-  <div class="education-content">
+        <p class="section-number">
+            01 — AREAS OF INTEREST
+        </p>
 
-    <div class="education-main">
-      <p class="label">BINUS UNIVERSITY</p>
+        <h2>
+            Areas of <em>Interest</em>
+        </h2>
 
-      <h3>Bachelor of Information Systems</h3>
-
-      <p class="date">2024 – Present</p>
-
-      <p>
-        Academic Focus: I am currently pursuing a Bachelor’s degree in
-        Information Systems at BINUS University, with a focus on Business
-        Intelligence. My studies combine technology and business perspectives,
-        allowing me to understand how information systems support business
-        needs and decision-making.
-      </p>
-
-      <p>
-        Project Experience: Throughout my studies, I have worked on projects
-        involving databases, business processes, data visualization, and UI/UX
-        design. These experiences have helped me develop both analytical and
-        creative skills while understanding how technology can be applied to
-        create effective and user-centered solutions.
-      </p>
     </div>
 
-    <div class="education-side">
-      <span>Current GPA</span>
-      <strong>3.58</strong>
-      <small>/ 4.00</small>
-    </div>
 
-  </div>
+    <div class="interest-grid">
+
+        <article class="interest-card reveal">
+
+            <span class="interest-number">01</span>
+
+            <h3>Business Analysis</h3>
+
+            <p>
+                Exploring business needs and translating them into
+                meaningful digital solutions.
+            </p>
+
+        </article>
+
+
+        <article class="interest-card reveal">
+
+            <span class="interest-number">02</span>
+
+            <h3>UI/UX Design</h3>
+
+            <p>
+                Creating intuitive interfaces and exploring how design
+                can improve the way users interact with digital products.
+            </p>
+
+        </article>
+
+
+        <article class="interest-card reveal">
+
+            <span class="interest-number">03</span>
+
+            <h3>Data Visualization</h3>
+
+            <p>
+                Turning business insights and data into clear,
+                engaging visual experiences.
+            </p>
+
+        </article>
+
+    </div>
 
 </section>
 
 
-<!-- PROJECTS -->
-<section class="section projects" id="projects">
+<!-- ================= EDUCATION ================= -->
 
-  <div class="section-number">02</div>
+<section class="section" id="education">
 
-  <div class="section-title">
-    <p>PROJECT EXPERIENCES</p>
-    <h2>Selected<br><i>projects.</i></h2>
-  </div>
+    <div class="section-heading reveal">
 
-  <div class="filters">
+        <p class="section-number">
+            02 — EDUCATION
+        </p>
 
-    <button class="filter active" data-filter="all">
-      ALL
-    </button>
+        <h2>
+            My <em>Education</em>
+        </h2>
 
-    <button class="filter" data-filter="business">
-      BUSINESS
-    </button>
+    </div>
 
-    <button class="filter" data-filter="data">
-      DATA & ANALYTICS
-    </button>
 
-    <button class="filter" data-filter="oracle">
-      ORACLE SQL
-    </button>
+    <div class="education-card reveal">
 
-    <button class="filter" data-filter="uiux">
-      UI/UX DESIGN
-    </button>
+        <div class="education-content">
 
-  </div>
+            <p class="small-label">
+                BINUS UNIVERSITY
+            </p>
 
-  <div class="project-grid" id="projectGrid"></div>
+            <h3>
+                Bachelor of Information Systems
+            </h3>
+
+            <p class="education-date">
+                2024 — Present
+            </p>
+
+            <div class="education-description">
+
+                <p>
+                    I am currently pursuing a Bachelor’s degree in Information
+                    Systems at BINUS University, with a focus on Business Intelligence.
+                    My studies combine technology and business perspectives, allowing
+                    me to understand how information systems support business needs
+                    and decision-making.
+                </p>
+
+                <p>
+                    Throughout my studies, I have worked on projects involving
+                    databases, business processes, data visualization, and UI/UX design.
+                    These experiences have helped me develop both analytical and creative
+                    skills while understanding how technology can be applied to create
+                    effective and user-centered solutions.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="gpa-box">
+
+            <span>Current GPA</span>
+
+            <strong>3.58</strong>
+
+            <small>/ 4.00</small>
+
+        </div>
+
+    </div>
 
 </section>
 
 
-<!-- CERTIFICATES -->
-<section class="section certificates" id="certificates">
+<!-- ================= PROJECTS ================= -->
 
-  <div class="section-number">03</div>
+<section class="section projects-section" id="projects">
 
-  <div class="section-title">
-    <p>CERTIFICATES</p>
-    <h2>Learning &<br><i>development.</i></h2>
-  </div>
+    <div class="section-heading reveal">
 
-  <div class="certificate-grid">
+        <p class="section-number">
+            03 — PROJECT EXPERIENCES
+        </p>
 
-    <article class="certificate">
-      <img
-        src="assets/certificates/CAIP – Penerapan AI untuk Proses Data.png"
-        alt="CAIP Certificate"
-      >
+        <h2>
+            Project <em>Experiences</em>
+        </h2>
 
-      <div>
-        <span>12 OCTOBER 2026</span>
-        <h3>CAIP – Penerapan AI untuk Proses Data</h3>
-        <button class="view-cert">
-          View Certificate ↗
+        <p class="section-intro">
+            Academic, business, data, systems, and UI/UX projects
+            developed throughout my Information Systems journey.
+        </p>
+
+    </div>
+
+
+    <!-- FILTER -->
+
+    <div class="project-filters reveal">
+
+        <button
+            class="filter-btn active"
+            data-filter="all"
+        >
+            ALL
         </button>
-      </div>
-    </article>
 
-    <article class="certificate">
-      <img
-        src="assets/certificates/Event Online Free Class - Quality Assurance.png"
-        alt="Quality Assurance Certificate"
-      >
-
-      <div>
-        <span>20 OCTOBER 2026</span>
-        <h3>Quality Assurance</h3>
-        <button class="view-cert">
-          View Certificate ↗
+        <button
+            class="filter-btn"
+            data-filter="business"
+        >
+            BUSINESS
         </button>
-      </div>
-    </article>
 
-  </div>
+        <button
+            class="filter-btn"
+            data-filter="data"
+        >
+            DATA & ANALYTICS
+        </button>
+
+        <button
+            class="filter-btn"
+            data-filter="oracle"
+        >
+            ORACLE SQL
+        </button>
+
+        <button
+            class="filter-btn"
+            data-filter="uiux"
+        >
+            UI/UX DESIGN
+        </button>
+
+    </div>
+
+
+    <!-- PROJECT CARDS -->
+
+    <div
+        class="project-grid"
+        id="projectGrid"
+    ></div>
 
 </section>
 
 
-<!-- SKILLS -->
-<section class="section skills" id="skills">
+<!-- ================= CERTIFICATES ================= -->
 
-  <div class="section-number">04</div>
+<section class="section" id="certificates">
 
-  <div class="section-title">
-    <p>SKILLS</p>
-    <h2>What I<br><i>work with.</i></h2>
-  </div>
+    <div class="section-heading reveal">
 
-  <div class="skills-layout">
+        <p class="section-number">
+            04 — CERTIFICATES
+        </p>
 
-    <div class="skill-box">
-      <p class="label">SOFT SKILLS</p>
+        <h2>
+            Certificates
+        </h2>
 
-      <div class="skill-list">
-        <span>Analytical Thinking</span>
-        <span>Problem Solving</span>
-        <span>Critical Thinking</span>
-        <span>Communication</span>
-        <span>Team Work</span>
-        <span>Decision Making</span>
-        <span>Creativity</span>
-        <span>Product Research</span>
-      </div>
     </div>
 
 
-    <div class="skill-box tools">
-      <p class="label">TOOLS</p>
-
-      <div class="tool-list">
-        <div>SQL</div>
-        <div>Microsoft Excel</div>
-        <div>Power BI</div>
-        <div>Tableau</div>
-        <div>Oracle APEX</div>
-        <div>Python</div>
-        <div>Figma</div>
-        <div>Canva</div>
-      </div>
-    </div>
-
-  </div>
+    <div
+        class="certificate-grid"
+        id="certificateGrid"
+    ></div>
 
 </section>
 
 
-<!-- CONTACT -->
-<section class="section contact" id="contact">
+<!-- ================= SKILLS ================= -->
 
-  <div class="contact-box">
+<section class="section" id="skills">
 
-    <p class="label">LET'S CONNECT</p>
+    <div class="section-heading reveal">
 
-    <h2>
-      Let’s<br>
-      <i>Connect.</i>
-    </h2>
+        <p class="section-number">
+            05 — SKILLS
+        </p>
 
-    <p>
-      I’m open to internship opportunities and collaborations where I can
-      learn, contribute, and grow.
-    </p>
+        <h2>
+            Skills & <em>Tools</em>
+        </h2>
 
-    <div class="contact-links">
-      <a href="mailto:nasyiad@gmail.com">
-        nasyiad@gmail.com ↗
-      </a>
-
-      <a
-        href="https://www.linkedin.com/in/nasyia-daniya-rabbani-2209b9322/"
-        target="_blank"
-      >
-        LinkedIn ↗
-      </a>
-
-      <span>
-        +62 821 1398 2240
-      </span>
     </div>
 
-  </div>
+
+    <div class="skills-grid">
+
+
+        <!-- SOFT SKILLS -->
+
+        <div class="skills-card reveal">
+
+            <p class="small-label">
+                SOFT SKILLS
+            </p>
+
+            <div class="skill-pills">
+
+                <span>Creativity</span>
+                <span>Product Research</span>
+                <span>Entrepreneurship</span>
+                <span>Team Work</span>
+                <span>Critical Thinking</span>
+                <span>Problem Solving</span>
+                <span>Strategic Problem Solving</span>
+                <span>Decision Making</span>
+                <span>Detail-Oriented</span>
+                <span>Business Acumen</span>
+                <span>Data-Driven Storytelling</span>
+                <span>Logical Thinking</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- TOOLS -->
+
+        <div class="skills-card tools-card reveal">
+
+            <p class="small-label">
+                TOOLS
+            </p>
+
+            <div class="tools-grid">
+
+                <div class="tool">
+                    <b>F</b>
+                    <span>Figma</span>
+                </div>
+
+                <div class="tool">
+                    <b>EX</b>
+                    <span>Microsoft Excel</span>
+                </div>
+
+                <div class="tool">
+                    <b>OC</b>
+                    <span>Oracle Cloud</span>
+                </div>
+
+                <div class="tool">
+                    <b>OA</b>
+                    <span>Oracle APEX</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="section" id="contact">
+
+    <div class="contact-card reveal">
+
+        <p class="section-number">
+            LET’S CONNECT
+        </p>
+
+        <h2>
+            Let’s <em>Connect.</em>
+        </h2>
+
+        <p>
+            I’m open to internship opportunities and collaborations
+            where I can learn, contribute, and grow.
+        </p>
+
+        <div class="contact-links">
+
+            <a href="mailto:nasyiad@gmail.com">
+                nasyiad@gmail.com ↗
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/nasyia-daniya-rabbani-2209b9322/"
+                target="_blank"
+            >
+                LinkedIn ↗
+            </a>
+
+        </div>
+
+    </div>
 
 </section>
 
 </main>
 
 
+<!-- ================= FOOTER ================= -->
+
 <footer>
-  <span>© 2026 Nasyia Daniya Rabbani</span>
-  <strong>Portfolio</strong>
+
+    <span>
+        © 2026 Nasyia Daniya Rabbani
+    </span>
+
+    <strong>
+        Portfolio
+    </strong>
+
 </footer>
 
 
-<!-- CERTIFICATE LIGHTBOX -->
-<div class="lightbox" id="lightbox">
-  <button id="closeLightbox">×</button>
-  <img id="lightboxImage" src="" alt="Certificate Preview">
+<!-- ================= PROJECT MODAL ================= -->
+
+<div
+    class="modal"
+    id="projectModal"
+>
+
+    <div
+        class="modal-overlay"
+        id="modalOverlay"
+    ></div>
+
+
+    <div class="modal-container">
+
+        <button
+            class="modal-close"
+            id="modalClose"
+        >
+            ×
+        </button>
+
+
+        <!-- IMAGE / CAROUSEL -->
+
+        <div class="modal-gallery">
+
+            <div
+                id="modalGallery"
+                class="modal-gallery-inner"
+            ></div>
+
+        </div>
+
+
+        <!-- PROJECT DETAIL -->
+
+        <div class="modal-content">
+
+            <p
+                class="modal-category"
+                id="modalCategory"
+            ></p>
+
+            <h2
+                id="modalTitle"
+            ></h2>
+
+
+            <div class="modal-section">
+
+                <p class="modal-label">
+                    SUMMARY
+                </p>
+
+                <p
+                    id="modalSummary"
+                    class="modal-summary"
+                ></p>
+
+            </div>
+
+
+            <div class="modal-section">
+
+                <p class="modal-label">
+                    SKILLS
+                </p>
+
+                <div
+                    id="modalSkills"
+                    class="modal-skills"
+                ></div>
+
+            </div>
+
+
+            <a
+                id="modalLink"
+                class="modal-link"
+                target="_blank"
+            >
+                View Project ↗
+            </a>
+
+        </div>
+
+    </div>
+
 </div>
 
 
