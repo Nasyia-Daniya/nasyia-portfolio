@@ -854,35 +854,26 @@ nav a:hover::after {
 
 .skills-grid {
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     gap: 18px;
 }
 
 .skills-card {
     min-height: 260px;
-
     padding: 34px;
 
     border: 1px solid var(--line);
-
     border-radius: 25px;
 
-    background: var(--white);
-}
-
-.tools-card {
     background: var(--pink-light);
 }
 
+/* ================= SOFT SKILLS ================= */
+
 .skill-pills {
     display: flex;
-
     flex-wrap: wrap;
-
     gap: 7px;
-
     margin-top: 20px;
 }
 
@@ -891,11 +882,18 @@ nav a:hover::after {
 
     border-radius: 999px;
 
-    background: var(--pink-light);
+    background: white;
+    color: var(--text);
 
     font-size: 9px;
-
     font-weight: 600;
+}
+
+
+/* ================= TOOLS ================= */
+
+.tools-card {
+    background: var(--white);
 }
 
 .tools-grid {
@@ -919,7 +917,7 @@ nav a:hover::after {
 
     border-radius: 15px;
 
-    background: rgba(255,255,255,0.8);
+    background: var(--pink-light);
 
     font-size: 10px;
 }
@@ -929,7 +927,6 @@ nav a:hover::after {
     height: 30px;
 
     display: grid;
-
     place-items: center;
 
     border-radius: 9px;
