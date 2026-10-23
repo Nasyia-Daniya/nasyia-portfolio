@@ -891,7 +891,7 @@ nav a:hover::after {
 
     border-radius: 999px;
 
-    background: white;
+    background: var(--pink-light);
 
     font-size: 9px;
 
