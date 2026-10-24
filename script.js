@@ -40,11 +40,17 @@ const PROJECTS = [
         summary:
             "I explored a small-scale Thrifted business as an opportunity to learn more about how a business operates from a practical perspective. The experience involved presenting products, communicating with potential customers, and managing product information. Beyond the business aspect, this experience helped me understand the importance of how a product is presented and communicated to its target audience. It also allowed me to develop my communication, organization, and customer-oriented thinking.",
 
-        cover: "",
+        cover: "thrift3.png",
 
-        images: [],
+        images: [
+            "thrift1.png",
+            "thrift2.png",
+            "thrift3.png",
+            "thrift4.png",
+            "thrift5.png"
+],
 
-        link: ""
+        link: "https://www.instagram.com/thriftline.tangerang/"
     },
 
 
@@ -94,9 +100,9 @@ const PROJECTS = [
         summary:
             "CareerPath addresses the gap between academic learning and the skills expected in the industry. The project involved identifying early-career user needs and translating them into business and product requirements, while also considering revenue models and B2B partnership opportunities. The user journey and assessment process were then structured to align user expectations with business objectives, demonstrating how business requirements can be translated into a practical digital solution.",
 
-        cover: "",
+        cover: "careerpath1.png",
 
-        images: [],
+        images: ["careerpath1.png"],
 
         link:
             "https://www.figma.com/design/qMYo1UkSJx0w3bBiT05keB/Untitled?node-id=0-1&t=ebmPFdNFV5epWY58-0"
@@ -120,9 +126,9 @@ const PROJECTS = [
         summary:
             "Homify is a digital platform concept focused on helping users explore home interior ideas and discover inspiration based on their preferences. The project was designed around the idea of making the process of finding suitable interior styles more convenient and visually engaging. The project allowed me to explore how digital platforms can organize visual information and present different options in a way that supports users in making choices. It also strengthened my understanding of user experience and how information can be presented through a simple and intuitive interface.",
 
-        cover: "",
+        cover: "homify2.png",
 
-        images: [],
+        images: ["homify2.png"],
 
         link:
             "https://www.figma.com/design/pFB1Gz5B6sJjfb2cFzcMky/Project-AI-%22HOMIFY%22?node-id=0-1&p=f&t=av1VQEpVCZW3GACi-0"
@@ -147,9 +153,9 @@ const PROJECTS = [
         summary:
             "NusantaraTrip explored the travel planning process from the user's perspective, particularly the challenge of finding and organizing relevant destination information. The project required identifying the information users need throughout their planning journey and structuring it into a more organized flow. The result reflects how user requirements can be translated into a solution that supports information discovery and decision-making.",
 
-        cover: "",
+        cover: "nusantaratrp3.png",
 
-        images: [],
+        images: ["nusantaratrp3.png"],
 
         link:
             "https://www.figma.com/design/ZurhkbEmc96SEnQDme78IM/10?node-id=0-1&t=Are8ZZahxKPoYr1P-1"
@@ -174,9 +180,9 @@ const PROJECTS = [
         summary:
             "Satu Jalan is a mobile application concept created to help users manage their booking process in a more simple and organized way. The concept focuses on providing a smooth user journey, from selecting available options to completing the booking and accessing a digital ticket. Through this project, I explored how information can be structured and presented visually to create a clear and enjoyable user experience. It also gave me an opportunity to understand how digital solutions can respond to everyday user needs.",
 
-        cover: "",
+        cover: "satujalan5.png",
 
-        images: [],
+        images: ["satujalan5.png"],
 
         link:
             "https://www.figma.com/design/lo0TZhJXwA6bVvYMcNiqJP/Untitled?node-id=3-198&t=4ma47ONBSxTKlQwC-0"
@@ -201,9 +207,9 @@ const PROJECTS = [
         summary:
             "The Copyin project examined the e-commerce process from both customer and administrative perspectives. Key requirements were identified across product browsing, product information, ordering, transaction management, and business administration. These requirements were then connected through structured user flows and interfaces, ensuring that the customer experience remained aligned with the operational needs of the business.",
 
-        cover: "",
+        cover: "copyn4.png",
 
-        images: [],
+        images: ["copyn4.png"],
 
         link:
             "https://www.figma.com/design/5XGDVA73fPixeU8rZsOJ6e/Untitled?node-id=0-1&p=f&t=uvumfAaIdA1FMQQ5-0"
@@ -228,9 +234,9 @@ const PROJECTS = [
         summary:
             "This project focuses on transforming complex transactional records into an interactive Microsoft Excel business intelligence dashboard to resolve delays in tracking regional sales contributions and purchasing behavior. Utilizing advanced Excel techniques including dynamic PivotTables, dynamic slicers, calculated fields, and conditional formatting the dashboard enables multi-dimensional filtering across product categories, regional territories (Pejuang Region), and payment methods. The resulting layout converts static table records into an intuitive visual structure that accelerates reporting turnaround time and equips decision-makers with real-time operational insights.",
 
-        cover: "",
+        cover: "Sales & Regional Performance Dashboard.png",
 
-        images: [],
+        images: ["Sales & Regional Performance Dashboard.png"],
 
         link: "https://docs.google.com/spreadsheets/d/1-tJzqbNdLDqR64iqk4-2gD8v1Igqsu0z/edit?gid=784841066#gid=784841066"
     },
@@ -255,9 +261,9 @@ const PROJECTS = [
         summary:
             "Shipping expenditure was identified as a potential factor affecting e-commerce profitability. The analysis examined relationships between shipping costs, product price tiers, and payment channels to identify unusual spending patterns and potential inefficiencies. These findings were translated into business considerations, including the evaluation of free-shipping thresholds and courier cost structures.",
 
-        cover: "",
+        cover: "E-Commerce Logistics & Shipping Expenditure Analytics.png",
 
-        images: [],
+        images: ["E-Commerce Logistics & Shipping Expenditure Analytics.png"],
 
         link: "https://docs.google.com/spreadsheets/d/1D11adR-mRbj8UbIhK8k0fWNzMnyFD3hY/edit?gid=70506132#gid=70506132"
     },
@@ -281,9 +287,9 @@ const PROJECTS = [
         summary:
             "Delivery delays were identified as an operational issue with potential impacts on logistics performance and revenue. The analysis examined delivery duration, revenue, delay counts, and weather conditions to identify relationships that could explain operational bottlenecks. The findings were then translated into potential actions around route planning, delivery windows, and service performance.",
 
-        cover: "",
+        cover: "SmartCity Logistics Analytics Dashboard.png",
 
-        images: [],
+        images: ["SmartCity Logistics Analytics Dashboard.png"],
 
         link: ""
     },
@@ -307,9 +313,9 @@ const PROJECTS = [
         summary:
             "The analysis examined how AI adoption may influence workforce displacement, skill retention, and sector growth across different countries. Multi-country data was structured across time and geography to identify relevant patterns and relationships. These findings were presented through an interactive analytical platform to turn complex workforce data into insights that can support strategic planning and decision-making.",
 
-        cover: "",
+        cover: "AI Impact on Global Workforce Analytics.png",
 
-        images: [],
+        images: ["AI Impact on Global Workforce Analytics.png"],
 
         link: "https://public.tableau.com/app/profile/nasyia.daniya/viz/dashboard_17821306713920/DashboardInteraktif?publish=yes"
     },
