@@ -804,7 +804,17 @@ function openProject(index) {
 
     modalSummary.textContent =
         currentProject.summary;
-
+   
+   modalTasks.innerHTML =
+    currentProject.tasks
+        .map(
+            task => `
+                <li>
+                    ${escapeHTML(task)}
+                </li>
+            `
+        )
+        .join("");
 
     modalSkills.innerHTML =
         currentProject.skills
