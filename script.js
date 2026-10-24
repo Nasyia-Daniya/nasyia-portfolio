@@ -232,7 +232,7 @@ const PROJECTS = [
 
         images: [],
 
-        link: ""
+        link: "https://docs.google.com/spreadsheets/d/1-tJzqbNdLDqR64iqk4-2gD8v1Igqsu0z/edit?gid=784841066#gid=784841066"
     },
 
 
@@ -259,7 +259,7 @@ const PROJECTS = [
 
         images: [],
 
-        link: ""
+        link: "https://docs.google.com/spreadsheets/d/1D11adR-mRbj8UbIhK8k0fWNzMnyFD3hY/edit?gid=70506132#gid=70506132"
     },
 
 
@@ -311,7 +311,7 @@ const PROJECTS = [
 
         images: [],
 
-        link: ""
+        link: "https://public.tableau.com/app/profile/nasyia.daniya/viz/dashboard_17821306713920/DashboardInteraktif?publish=yes"
     },
 
 
