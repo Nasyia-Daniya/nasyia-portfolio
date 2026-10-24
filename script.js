@@ -7,7 +7,7 @@
 
 /* ================= PROFILE ================= */
 
-const PROFILE_PHOTO = "";
+const PROFILE_PHOTO = "portofolio - nasyia.png";
 
 
 /*
