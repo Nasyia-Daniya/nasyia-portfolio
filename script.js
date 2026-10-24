@@ -72,9 +72,19 @@ const PROJECTS = [
         summary:
             "Slarasoap was evaluated from a business feasibility perspective, with product consistency and formulation stability identified as key challenges. The product formulation was reviewed to address texture and structural issues, leading to the consideration of a glycerine-based soap base for better stability. Unit pricing was also established for the product variations, connecting product requirements with operational and commercial considerations.",
 
-        cover: "",
+        cover: "slarasoap1.png",
 
-        images: [],
+        images: [
+           "slarasoap1.png",
+           "slarasoap2.png",
+           "slarasoap3.png",
+           "slarasoap4.png",
+           "slarasoap5.png",
+           "slarasoap6.png",
+           "slarasoap7.png",
+           "slarasoap8.png",
+           
+        ],
 
         link: ""
     },
