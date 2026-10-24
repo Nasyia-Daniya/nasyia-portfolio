@@ -1429,3 +1429,25 @@ footer strong {
         font-size: 36px;
     }
 }
+
+/* ================= PROJECT TASKS ================= */
+
+.modal-tasks {
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-tasks li {
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.7;
+    padding-left: 4px;
+}
+
+.modal-tasks li::marker {
+    color: var(--pink);
+    font-weight: 600;
+}
