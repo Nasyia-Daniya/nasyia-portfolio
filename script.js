@@ -617,6 +617,9 @@ const modalTitle =
 const modalSummary =
     document.getElementById("modalSummary");
 
+const modalTasks =
+    document.getElementById("modalTasks");
+
 const modalSkills =
     document.getElementById("modalSkills");
 
