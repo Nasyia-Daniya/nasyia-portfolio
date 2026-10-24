@@ -338,9 +338,16 @@ const PROJECTS = [
         summary:
             "Developed to eliminate paper-based redundancies and slow query processing in university administration, this project features a normalized relational database schema and interactive administrative dashboard engineered using Oracle Cloud and Oracle APEX. By leveraging 3NF SQL database normalization, custom table indexing, dynamic data entry forms (Form Mahasiswa), and real-time analytical charts, the system centralizes student enrollments and curriculum distribution. The architecture significantly reduces data duplication while providing academic leads with instant visual metrics on course loads across study programs.",
 
-        cover: "",
+        cover: "academic1.png",
 
-        images: [],
+        images: [
+           "academic1.png",
+           "academic2.png",
+           "academic3.png",
+           "academic4.png",
+           "academic5.png",
+           "academic6.png",
+        ],
 
         link: ""
     }
