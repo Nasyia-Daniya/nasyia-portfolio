@@ -360,9 +360,78 @@ const PROJECTS = [
         ],
 
         link: ""
-    }
+    },
 
+       {
+        title: "Employee Dashboard",
+        category: [
+            "oracle"
+        ],
+        categoryLabel: "ORACLE SQL",
+        skills: [
+            "SQL",
+            "Oracle APEX",
+            "Data Analysis",
+            "Data Visualization"
+        ],
+        summary:
+            "Employee Dashboard is an analytical dashboard designed to transform employee job-history data into structured workforce information. The project focuses on understanding employee records, job distribution, and work duration through a combination of data retrieval, analysis, and visualization. From a Business Analyst perspective, the dashboard connects operational employee data with business-oriented views that make workforce patterns easier to understand and monitor.",
+        tasks: [
+            "Understand the business requirement and determine the employee information that needs to be analyzed.",
+            "Retrieve employee job-history data including employee name, start date, end date, and job ID.",
+            "Review and structure the retrieved data so it can be analyzed consistently.",
+            "Analyze the number of job records associated with employees.",
+            "Analyze the distribution of employees across different job roles.",
+            "Calculate and examine work duration based on employee start and end dates.",
+            "Transform the analysis into tables and visualizations.",
+            "Build an Employee Dashboard in Oracle APEX to present the results in a centralized view.",
+            "Interpret the resulting patterns to support workforce monitoring and analysis."
+        ],
+        cover: "employee dashboard1.png",
+        images: [
+            "employee dashboard1.png",
+            "employee dashboard2.png",
+            "employee dashboard3.png",
+            "employee dashboard4.png"
+        ],
+        link: ""
+    },
+
+    {
+        title: "EDA — Pengalaman Magang Mahasiswa",
+        category: [
+            "data"
+        ],
+        categoryLabel: "DATA & ANALYTICS",
+        skills: [
+            "Exploratory Data Analysis",
+            "Data Cleaning",
+            "Data Quality",
+            "Data Analysis"
+        ],
+        summary:
+            "This project analyzes student internship experiences to identify descriptive patterns in internship duration, completion dates, data quality, and frequently discussed topics. The analysis follows a structured process from understanding the dataset and assessing data quality to cleaning, normalization, exploratory analysis, and interpretation. The result provides an exploratory overview of internship experiences while also highlighting data quality issues that should be considered before further analysis.",
+        tasks: [
+            "Understand the objective and business context of analyzing student internship experiences.",
+            "Review the dataset structure and identify the available variables.",
+            "Assess data quality by checking missing values, duplicate records, and repeated student IDs.",
+            "Identify potential data-quality issues before using student IDs as unique identifiers.",
+            "Clean and normalize internship duration values into a consistent format.",
+            "Parse and standardize internship completion dates.",
+            "Calculate descriptive statistics including average and median internship duration.",
+            "Analyze the earliest and latest internship completion dates.",
+            "Perform text exploration to identify frequently occurring words in students' internship stories.",
+            "Translate the analytical results into descriptive and exploratory business insights.",
+            "Document the findings and distinguish exploratory patterns from causal conclusions."
+        ],
+        cover: "pengalaman magang.png",
+        images: [
+            "pengalaman magang.png"
+        ],
+        link: "https://docs.google.com/spreadsheets/d/1jsXatonM5moxH1TjkwmNXI2yhewr8e3Y/edit?gid=1129586102#gid=1129586102"
+    },
 ];
+
 
 
 /* ================= CERTIFICATES ================= */
