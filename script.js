@@ -78,11 +78,10 @@ const PROJECTS = [
         title: "CareerPath",
 
         category: [
-            "business",
             "uiux"
         ],
 
-        categoryLabel: "BUSINESS · UI/UX DESIGN",
+        categoryLabel: "UI/UX DESIGN",
 
         skills: [
             "Strategic & Business Thinking",
@@ -188,11 +187,10 @@ const PROJECTS = [
         title: "Copyin",
 
         category: [
-            "uiux",
-            "business"
+            "uiux"
         ],
 
-        categoryLabel: "UI/UX DESIGN · BUSINESS",
+        categoryLabel: "BUSINESS",
 
         skills: [
             "Creativity",
