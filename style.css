@@ -1494,3 +1494,23 @@ footer strong {
 .modal-tasks li::marker {
     color: var(--pink);
 }
+/* DOWNLOAD CV BUTTON */
+.hero-buttons {
+    margin-top: 24px;
+}
+
+.download-cv-btn {
+    display: inline-block;
+    font-family: "DM Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 3px;
+    transition: color 0.3s ease;
+}
+
+.download-cv-btn:hover {
+    color: var(--pink);
+}
